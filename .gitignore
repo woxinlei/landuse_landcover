@@ -1,0 +1,57 @@
+# Python 缓存和中间文件
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# 虚拟环境
+venv/
+.env/
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+
+# IDE配置文件（VSCode/PyCharm等）
+.vscode/
+.idea/
+
+# 大体积遥感栅格/矢量数据
+*.tif
+*.tiff
+*.img
+*.ovr
+*.aux.xml
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.xml
+*.lock
+
+# 输出结果文件
+*.csv
+*.xlsx
+*.npy
+*.npz
+*.mp4
+*.gif
+
+# 结果输出目录（按你的项目结构）
+results/
+output/
+dataoutput/
+ndvi_results/
+supervised_kmeans_results_*/
+
+# 保留 sample_data 中的示例文件
+!sample_data/**
